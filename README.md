@@ -1,38 +1,33 @@
-# <p align="center">A Telegram ChatGPT bot</p>
+# <p align="center">Телеграм бот с ChatGPT</p>
 <p align="center">
-  <a href="https://discord.gg/ccZn9ZMfFf">
-    <img src="https://img.shields.io/badge/chat-Discord-7289DA?logo=discord" alt="flows.network Discord">
-  </a>
-  <a href="https://twitter.com/flows_network">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&amp;logoColor=white" alt="flows.network Twitter">
-  </a>
+
    <a href="https://flows.network/flow/createByTemplate/Telegram-ChatGPT">
     <img src="https://img.shields.io/website?up_message=deploy&url=https%3A%2F%2Fflows.network%2Fflow%2Fnew" alt="Create a flow">
   </a>
 </p>
 
-[Deploy this function on flows.network](https://flows.network/flow/createByTemplate/Telegram-ChatGPT), and you will get a Telegram bot that uses ChatGPT to respond to every question in your Telegram DM or channel/group automatically.
+[Разверните эту функцию в flow.network](https://flows.network/flow/createByTemplate/Telegram-ChatGPT), и вы получите бота Telegram, который использует ChatGPT для ответа на каждый вопрос в вашей личной переписке или канале/группе Telegram. автоматически.
 
-Try a couple of Telegram bots on flows.network yourself!
+Попробуйте сами пару Telegram-ботов на flow.network!
 
-* This is a [simple ChatGPT bot](https://t.me/flows_network_gpt_bot) that is created directly from the template. 
-* The [multimodal assistant bot](https://t.me/flows_english_assistant_bot) is based on this template. It can recognize text on uploaded pictures using flows.network's built in OCR service. It also has several task prompts already set up as slash commands. 
-
-
-## Prerequisites
-
-* You will need to bring your own [OpenAI API key](https://openai.com/blog/openai-api). If you do not already have one, [sign up here](https://platform.openai.com/signup).
-
-* You also need a bot token to access the Telegram API. If you don't already have one, go to Telegram to get a bot token from [@botfather](https://telegram.me/BotFather).
+* Это [простой бот ChatGPT](https://t.me/flows_network_gpt_bot), который создается непосредственно из шаблона.
+* [Мультимодальный бот-помощник](https://t.me/flows_english_assistant_bot) основан на этом шаблоне. Он может распознавать текст на загруженных изображениях, используя встроенный сервис OCR flow.network. Он также имеет несколько подсказок к задачам, уже настроенных в виде косой черты.
 
 
-## Deploy your Telegram ChatGPT bot in 3 steps
+## Предварительные условия
 
-1. Create a bot from a template
-2. Add your ChatGPT API key
-3. Add the telegram bot token
+* Вам потребуется иметь свой собственный [ключ API OpenAI] (https://openai.com/blog/openai-api). Если у вас его еще нет, [зарегистрируйтесь здесь](https://platform.openai.com/signup).
 
-### 1 Create a bot from a template
+* Вам также понадобится токен бота для доступа к API Telegram. Если у вас его еще нет, зайдите в Telegram и получите токен бота от [@botfather](https://telegram.me/BotFather).
+
+
+## Разверните бота Telegram ChatGPT за 3 шага
+
+1. Создайте бота по шаблону
+2. Добавьте свой ключ API ChatGPT.
+3. Добавьте токен бота Telegram
+
+###1 Создаём бота по шаблону
 
 
 [**Just click here**](https://flows.network/flow/createByTemplate/Telegram-ChatGPT)
@@ -40,27 +35,27 @@ Try a couple of Telegram bots on flows.network yourself!
 <img width="415" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/c91edcc2-207f-44d0-a545-9a61d0c6db2f">
 
 
-Here you can see three variables. You can customize the `system_prompt` variable to prompt ChatGPT. 
+Здесь вы можете увидеть три переменные. Вы можете настроить переменную system_prompt для запроса ChatGPT.
 
-Click on the **Create and Build** button.
+Нажмите кнопку **Создать и построить**.
 
-### 2 Add your OpenAI API key
+### 2 Добавьте ключ API OpenAI
 
-You will now set up OpenAI integration. Click on **Connect**, and enter your key.
+Теперь вы настроите интеграцию OpenAI. Нажмите **Подключиться** и введите свой ключ.
 
-[<img width="450" alt="image" src="https://user-images.githubusercontent.com/45785633/226564674-902933b5-8ff3-4724-93e3-2b2f67dc0b9a.png">](https://user-images.githubusercontent.com/45785633/226564674-902933b5-8ff3-4724-93e3-2b2f67dc0b9a.png)
+[<img width="450" alt="image" src="https://user-images.githubusercontent.com/45785633/226564674-902933b5-8ff3-4724-93e3-2b2f67dc0b9a.png">](https:/ /user-images.githubusercontent.com/45785633/226564674-902933b5-8ff3-4724-93e3-2b2f67dc0b9a.png)
 
-Close the tab and go back to the flow.network page once you are done. Click on **Continue**.
+Закройте вкладку и вернитесь на страницу flow.network, как только закончите. Нажмите **Продолжить**.
 
-### 3 Add the Telegram bot token
+### 3 Добавьте токен бота Telegram
 
-You will now set up Telegram integration. Enter your Telegram token here.
+Теперь вы настроите интеграцию с Telegram. Введите здесь свой токен Telegram.
 
-[<img width="450" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5">](https://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5)
+[<img width="450" alt="image" src="https://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5">](https ://github.com/flows-network/telegram-claude/assets/45785633/805f78b0-ca9b-476d-8ec2-1e5763c0edf5)
 
-Click on **Deploy** button.
+Нажмите кнопку **Развернуть**.
 
-## Give it a try. 
+## Попробуйте.
 
-As soon as the flow function's status becomes `ready` and the flow's status becomes `running`, the Telegram Telegram bot goes live. Go ahead and send a private message to the bot! You can also invite this bot to your channel/group.
+Как только статус функции потока становится «готов», а статус потока — «работает», бот Telegram Telegram запускается. Напишите боту личное сообщение! Вы также можете пригласить этого бота на свой канал/группу.
 
